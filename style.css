@@ -8,3 +8,17 @@
     padding-top: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.cityDiv {
+    font-size: 400px;
+}
+
+#weather-display {
+    border: solid thin lightgray;
+    padding: 30px;
+}

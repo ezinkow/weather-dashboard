@@ -15,15 +15,35 @@
         <h1 class="display-4">Weather Dashboard</h1>
         <p class="lead">Find out the weather in your area or anywhere you'd like</p>
         </div>
-     <div class="container">
+<div class="container">
     <div class="row">
-        <div class="col-4">test1</div>
-        <div class="col-8">test1.5
+        <div class="col-4">
             <div class="row">
-                <div class="col-12">test2</div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="search">Search for a City:</label>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-12">test3</div>
+                <div class="col-6 no-gutters" id="city-search">
+                        <input type="text" class="form-control" id="city-search" placeholder="City" style="max-width:250px;">
+                </div>
+                <div class="col-6 no-gutters" id="search-btn">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8" id="city-btns"></div>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-12" id="weather-display">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" id="5-day"></div>
             </div>
         </div>
           </div>
@@ -32,6 +52,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
