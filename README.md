@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-![image](https://user-images.githubusercontent.com/71417500/98013147-94f56000-1dbf-11eb-9ff7-452114e4e3d6.png)
+![image](https://user-images.githubusercontent.com/71417500/98015797-cd4a6d80-1dc2-11eb-8631-976a64bf52c9.png)
 
 ## Link to Website:
 
