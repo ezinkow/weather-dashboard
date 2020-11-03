@@ -9,6 +9,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.hide {
+    display: none;
+}
+
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -23,7 +27,7 @@
     padding: 30px;
 }
 
-#day0, #day1, #day2, #day3, #day4 {
+.forecast5 {
     background: #187bcd;
     color: white;
     border-radius: 10px;
@@ -31,4 +35,9 @@
     width: 130px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.flex {
+    display: flex;
+    margin: 10px 0px 10px 0px;
 }
