@@ -22,3 +22,13 @@
     border: solid thin lightgray;
     padding: 30px;
 }
+
+#day0, #day1, #day2, #day3, #day4 {
+    background: #187bcd;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 130px;
+    padding-bottom: 10px;
+    text-align: center;
+}
