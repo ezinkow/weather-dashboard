@@ -18,7 +18,7 @@
     margin-left: 0;
 }
 
-#weather-display {
+#weatherDisplay {
     border: solid thin lightgray;
     padding: 30px;
 }
@@ -39,7 +39,7 @@
     padding: 5px;
 }
 
-#forecast-header {
+#forecastHeader {
     font-size: 30px;
 }
 
