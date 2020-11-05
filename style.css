@@ -18,13 +18,29 @@
     margin-left: 0;
 }
 
-.cityDiv {
-    font-size: 400px;
-}
-
 #weather-display {
     border: solid thin lightgray;
     padding: 30px;
+}
+
+.text-row {
+    margin-bottom: 10px;
+}
+
+.cityText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.uvText {
+    background-color: #ed2939;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#forecast-header {
+    font-size: 30px;
 }
 
 .forecast5 {
