@@ -67,9 +67,8 @@ $(document).ready(function(){
                 weatherOutput.append(windDiv)
                 $("#weatherDisplay").append(weatherOutput)
                 
-                //5-day forecast for loop
-                var nextFiveDays = ["1","2","3","4","5"]
-                for (let i = 0; i <= nextFiveDays.length; i++) {
+                //5-day forecast for look
+                for (let i = 0; i <= 5 ; i++) {
                     var dates = (moment().add(i, 'days').format("MM/D/YYYY"))
                     var futureDate = $("<div>")
                     futureDate.text(dates)
